@@ -2,7 +2,7 @@
 A simple & popular game, used tools ExpressJS, ReactJS (Redux). The procedure is rest API based. Every step is single session based & single session activity logged.
 
 # Structure
-Two repository combined: api: Server, client: Client Side
+Two repository combined: api: server app, client: client app
 
 
 # Installation:
@@ -10,15 +10,13 @@ Two repository combined: api: Server, client: Client Side
 git clone https://github.com/jeebon/tick-tack-toe-react-redux-express.git
 cd tick-tack-toe-react-redux-express
 ```
-***Install Server Side (Rest API, port: 5000)***
+Run API server (Port: 5000 mandatory)
 ```bash
 cd api
 npm install
 npm start
 ```
-Note: Port 5000 is mandatory
-
-***Install Client Side (ReactJS)***
+Run client app in another terminal (ReactJS)
 ```bash
 cd client
 npm install
