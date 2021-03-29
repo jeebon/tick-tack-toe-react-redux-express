@@ -10,7 +10,7 @@ const GamePage = ({ getItems, items, updateCurrentStep, addItems }) => {
   ), []);
 
 
-  const winner = getWinner(items.steps);
+  const winner = getWinner(items.steps[items.currentStep]);
   const xO = items.isNextX ? "X" : "O";
 
   const handleClick = (i) => {
